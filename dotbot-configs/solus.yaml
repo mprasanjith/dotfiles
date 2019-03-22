@@ -1,0 +1,10 @@
+- shell:
+    - ['####################']
+    - ['# Install Solus apps']
+    - ['####################']
+
+- eopkg:
+    - nodejs
+    - telegram
+    - vscode
+    - zsh

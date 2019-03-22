@@ -1,0 +1,9 @@
+- shell:
+    - ['#################']
+    - ['# Configure Linux']
+    - ['#################']
+
+- defaults:
+    link:
+      create: true
+      relink: true
