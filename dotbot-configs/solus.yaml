@@ -11,11 +11,19 @@
         quiet: true
 
 - eopkg:
+    - apache-maven
     - font-fira-ttf
     - font-firacode-otf
     - font-firacode-ttf
     - font-ibm-plex
+    - git
+    - mariadb
+    - neofetch
     - nodejs
+    - openjdk-8
     - telegram
     - vscode
+    - wget
+    - xclip
+    - yarn
     - zsh
