@@ -4,3 +4,4 @@
 [submodule "dotbot-plugins/dotbot-eopkg"]
 	path = dotbot-plugins/dotbot-eopkg
 	url = https://github.com/niklas-heer/dotbot-eopkg
+	ignore = untracked
