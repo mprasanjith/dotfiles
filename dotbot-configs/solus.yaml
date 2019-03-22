@@ -4,6 +4,10 @@
     - ['####################']
 
 - eopkg:
+    - font-fira-ttf
+    - font-firacode-otf
+    - font-firacode-ttf
+    - font-ibm-plex
     - nodejs
     - telegram
     - vscode
