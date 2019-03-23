@@ -27,6 +27,7 @@
     - nodejs
     - openjdk-8
     - telegram
+    - variety
     - vscode
     - wget
     - xclip

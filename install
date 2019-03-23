@@ -17,6 +17,7 @@ PLUGIN_DIR="dotbot-plugins"
 PLUGIN_OS="dotbot-eopkg"
 
 cd "${BASEDIR}"
+git -C "${DOTBOT_DIR}" submodule init --quiet
 git -C "${DOTBOT_DIR}" submodule sync --quiet --recursive
 git submodule update --init --recursive "${DOTBOT_DIR}"
 
