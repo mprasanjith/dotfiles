@@ -1,0 +1,39 @@
+[alias]
+    update-submodules = submodule update --init --recursive
+    upgrade-submodules = submodule update --init --remote
+
+    a = add
+    c = commit --verbose
+    cm = commit -m
+    d = diff
+    s = status -s
+    co = checkout
+
+[color]
+    ui = auto
+
+[color "branch"]
+    current = yellow bold
+    local = green bold
+    remote = cyan bold
+
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+    whitespace = red reverse
+
+[color "status"]
+    added = green bold
+    changed = yellow bold
+    untracked = red bold
+
+[pretty]
+    line = "%C(auto)%h%d %s %C(yellow)by %C(blue)%an %C(green)%ar"
+    compact = "%C(auto)%h %s %C(green)%ar%n %C(auto)%d%n"
+    detail = "%C(auto)%h %s%n %C(yellow)by %C(blue)%an %C(magenta)<%ae> [%G?] %C(green)%ar%n %C(auto)%d%n"
+[user]
+	useConfigOnly = true
+	name = Madusha Prasanjith
+	email = mprasanjith@gmail.com
