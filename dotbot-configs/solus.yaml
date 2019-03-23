@@ -9,6 +9,11 @@
         stderr: true
         description: Installing Base Development Tools
         quiet: true
+    - 
+        command: ~/.dotfiles/bin/solus_third_party.sh
+        stdin: true
+        stdout: true
+        description: Setting up third-party apps
 
 - eopkg:
     - apache-maven
