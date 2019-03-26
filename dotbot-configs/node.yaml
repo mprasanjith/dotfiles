@@ -1,0 +1,21 @@
+- shell:
+    - ['#############################']
+    - ['# Setting up node environment']
+    - ['#############################']
+
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- shell:
+    -
+        command: source ~/.bashrc && nvm install node
+        stdin: true
+        stdout: true
+        description: Installing latest Node.js
+    -
+        command: source ~/.bashrc && nvm install 8
+        stdin: true
+        stdout: true
+        description: Installing Node.js 8

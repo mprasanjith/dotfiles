@@ -5,7 +5,10 @@ CFLAGS= -c -g -D $(TARGET)
 all:
 	./install
 
-linux:
+node:
+	./install node
+
+linux: node
 	./install linux
 
 solus: linux
