@@ -17,6 +17,11 @@
       stdin: true
       stdout: true
       description: Installing nvm...
+    -
+      command: ~/.dotfiles/bin/jetbrains_toolbox.sh
+      stdin: true
+      stdout: true
+      description: Install JetBrains Toolbox
 
 - link:
     ~/.profile: profile
