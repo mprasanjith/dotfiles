@@ -36,6 +36,7 @@
     ~/.zshrc: zshrc
     ~/.zpreztorc: zpreztorc
     ~/.zprezto: prezto/
+    ~/.zprezto/contrib: prezto-contrib/
     ~/.profile: profile
     ~/.bashrc: bashrc
     ~/.bash_logout: bash_logout

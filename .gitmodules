@@ -8,3 +8,6 @@
 [submodule "prezto"]
 	path = prezto
 	url = https://github.com/sorin-ionescu/prezto.git
+[submodule "prezto-contrib"]
+	path = prezto-contrib
+	url = https://github.com/belak/prezto-contrib
