@@ -8,8 +8,8 @@ all:
 node:
 	./install node
 
-linux: node
+linux:
 	./install linux
 
-solus: linux
+solus: linux node
 	./install solus
