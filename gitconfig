@@ -35,5 +35,3 @@
     detail = "%C(auto)%h %s%n %C(yellow)by %C(blue)%an %C(magenta)<%ae> [%G?] %C(green)%ar%n %C(auto)%d%n"
 [user]
 	useConfigOnly = true
-	name = Madusha Prasanjith
-	email = mprasanjith@gmail.com
