@@ -5,3 +5,6 @@
 	path = dotbot-plugins/dotbot-eopkg
 	url = https://github.com/niklas-heer/dotbot-eopkg
 	ignore = untracked
+[submodule "prezto"]
+	path = prezto
+	url = https://github.com/sorin-ionescu/prezto.git
