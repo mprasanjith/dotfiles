@@ -22,9 +22,17 @@
       stdin: true
       stdout: true
       description: Install JetBrains Toolbox
+    -
+      command: ~/.dotfiles/bin/install_appimages.sh
+      stdin: true
+      stdout: true
+      description: Install Snaps
+
+
 
 - link:
     ~/.profile: profile
     ~/.bashrc: bashrc
     ~/.bash_logout: bash_logout
     ~/.nvm/default-packages: 'default-packages'
+    ~/.hyper.js: 'hyper.js'
