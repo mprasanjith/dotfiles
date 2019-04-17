@@ -24,6 +24,7 @@
     - gcolor3
     - git
     - mariadb
+    - mariadb-server
     - neofetch
     - nodejs
     - openjdk-8
